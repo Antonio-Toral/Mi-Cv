@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+body {
+    background-color: rgb(173, 255, 247);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: rgb(237, 237, 237);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,01);
+}
+
+.contenedor .ladoizq {
+    position: relative;
+    background-color: rgb(21, 21, 83);
+    padding: 40px;
+}
+
+.textodeperfil {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255,255,255,0.2);
+}
+
+.textodeperfil .fotodeperfil .image-profile {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.textodeperfil .fotodeperfil img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textodeperfil h1 {
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.textodeperfil h2 span {
+    font-size: 0.8em;
+    font-weight:50;
+    text-transform: none;
+    color: whitesmoke;
+}
+
+.contacto {
+    padding-top: 40px;
+}
+
+.contacto .titulo {
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom:5px;
+}
+
+.contacto ul {
+    position: relative;
+    list-style: none;
+}
+
+.contacto ul .icono {
+    display:flex;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(6, 112, 251);
+}
+
+.contacto ul li span {
+    color: whitesmoke;
+    font-weight: 300;
+}
+
+.contacto ul li span a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.contacto .skills span {
+    font-weight: bolder;
+}
+
+.contenedor .ladoder {
+    position:relative;
+    background-color: rgb(237,237,237);
+    padding: 40px;
+}
+
+.acercade {
+    margin-bottom: 50px;
+}
+
+.acercade h2 {
+    color: rgb(21, 21, 83);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.acercade .profile-description {
+    color: rgb(0, 0, 0);
+}
+
+.experiencia h2 {
+    color: rgb(21, 21, 83);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.experiencia p span {
+    font-weight: bold;
+}
+
+.hobbies h2 {
+    color: rgb(21, 21, 83);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.hobbies ul {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+
+.hobbies ul li {
+    list-style: none;
+    color: black;
+    margin: 15px;
+
+}
+
+.hobbies ul li .fa {
+    color: rgb(6,112,251);
+    font-size: 18px;
+}
